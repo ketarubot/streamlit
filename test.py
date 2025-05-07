@@ -8,8 +8,8 @@ with col1:
     with tab1:
         st.write('hi')
     with tab2:
-        st.wrtie('hi')
-        
+        st.write('hi')
+
 with col2:
     st.title('here is column2 title')
     st.checkbox('this is checkbox1 in column1')
