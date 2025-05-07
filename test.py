@@ -5,10 +5,10 @@ tab1, tab2 = st.tabs(['Tab A', 'Tab B'])
 
 with col1:
     st.title('here is column1 title')
-    with tab1:
-        st.write('hi')
-    with tab2:
-        st.write('hi')
+with tab1:
+    st.write('hi')
+with tab2:
+    st.write('hi')
 
 with col2:
     st.title('here is column2 title')
